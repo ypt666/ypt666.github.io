@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tests on My New Hugo Site</title>
-    <link>https://yingpengtao.github.io/test/</link>
+    <link>https://ypt666.github.io/test/</link>
     <description>Recent content in Tests on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 May 2022 13:43:02 +0800</lastBuildDate><atom:link href="https://yingpengtao.github.io/test/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2022 13:43:02 +0800</lastBuildDate><atom:link href="https://ypt666.github.io/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>尝试上传第二篇</title>
-      <link>https://yingpengtao.github.io/test/blog2/</link>
+      <link>https://ypt666.github.io/test/blog2/</link>
       <pubDate>Mon, 02 May 2022 13:43:02 +0800</pubDate>
       
-      <guid>https://yingpengtao.github.io/test/blog2/</guid>
+      <guid>https://ypt666.github.io/test/blog2/</guid>
       <description> title: &amp;ldquo;文章标题&amp;rdquo; # 文章标题 author: &amp;ldquo;作者&amp;rdquo; # 文章作者 description : &amp;ldquo;描述信息&amp;rdquo; # 文章描述信息 date: 2015-09-28 # 文章编写日期 lastmod: 2015-04-06 # 文章修改日期
 tags = [ # 文章所属标签 &amp;ldquo;文章标签1&amp;rdquo;, &amp;ldquo;文章标签2&amp;rdquo; ] categories = [ # 文章所属标签 &amp;ldquo;文章分类1&amp;rdquo;, &amp;ldquo;文章分类2&amp;rdquo;, ] keywords = [ # 文章关键词 &amp;ldquo;Hugo&amp;rdquo;, &amp;ldquo;static&amp;rdquo;, &amp;ldquo;generator&amp;rdquo;, ]
 next: /tutorials/github-pages-blog # 下一篇博客地址 prev: /tutorials/automated-deployments # 上一篇博客地址 </description>

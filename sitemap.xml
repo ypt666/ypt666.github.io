@@ -2,23 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yingpengtao.github.io/</loc>
+    <loc>https://ypt666.github.io/</loc>
     <lastmod>2022-05-02T13:43:02+08:00</lastmod>
   </url><url>
-    <loc>https://yingpengtao.github.io/test/</loc>
+    <loc>https://ypt666.github.io/post/</loc>
     <lastmod>2022-05-02T13:43:02+08:00</lastmod>
   </url><url>
-    <loc>https://yingpengtao.github.io/test/blog2/</loc>
+    <loc>https://ypt666.github.io/test/</loc>
     <lastmod>2022-05-02T13:43:02+08:00</lastmod>
   </url><url>
-    <loc>https://yingpengtao.github.io/post/</loc>
+    <loc>https://ypt666.github.io/post/blog3/</loc>
+    <lastmod>2022-05-02T13:43:02+08:00</lastmod>
+  </url><url>
+    <loc>https://ypt666.github.io/test/blog2/</loc>
+    <lastmod>2022-05-02T13:43:02+08:00</lastmod>
+  </url><url>
+    <loc>https://ypt666.github.io/post/bolg/</loc>
     <lastmod>2022-05-01T21:08:26+08:00</lastmod>
   </url><url>
-    <loc>https://yingpengtao.github.io/post/bolg/</loc>
-    <lastmod>2022-05-01T21:08:26+08:00</lastmod>
+    <loc>https://ypt666.github.io/categories/</loc>
   </url><url>
-    <loc>https://yingpengtao.github.io/categories/</loc>
-  </url><url>
-    <loc>https://yingpengtao.github.io/tags/</loc>
+    <loc>https://ypt666.github.io/tags/</loc>
   </url>
 </urlset>
