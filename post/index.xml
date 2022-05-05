@@ -6,7 +6,31 @@
     <description>Recent content in Posts on 每日小应</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Wed, 04 May 2022 19:50:13 +0800</lastBuildDate><atom:link href="https://ypt666.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 May 2022 13:03:53 +0800</lastBuildDate><atom:link href="https://ypt666.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>巨潮小疑问</title>
+      <link>https://ypt666.github.io/post/%E5%B7%A8%E6%BD%AE%E5%B0%8F%E7%96%91%E9%97%AE/</link>
+      <pubDate>Thu, 05 May 2022 13:03:53 +0800</pubDate>
+      
+      <guid>https://ypt666.github.io/post/%E5%B7%A8%E6%BD%AE%E5%B0%8F%E7%96%91%E9%97%AE/</guid>
+      <description>1.年报中存在在2021年发布2018年年度报告（更新后）的情况（如300537广信材料） 该情况下，是否应该采用2021年发布的新版报告，还是用原来的2019年时公布的老版本？
+用wps文本分析对比东风汽车的2012年三份报告， 决定：保留当年原始版本的年报 理由：当年的年报比是企业精雕细琢的成果，后期更新后和修订版是不可控力作用的结果。
+2.年报修订版和原版该用哪个？？
+3.sumlume在等待过程中，先点（全部清除），再点（年报）
+http://www.cninfo.com.cn/new/disclosure/stock?orgId=gssz0000001&amp;amp;stockCode=000001#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000002&amp;amp;orgId=gssz0000002#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000003&amp;amp;orgId=gssz0000003#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000004&amp;amp;orgId=gssz0000004#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=600520&amp;amp;orgId=gssh0600520#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000001&amp;amp;orgId=gssh0000001#latestAnnouncement
+页码拼接 shares=[,,,,,,,]
+sh sz url=&amp;ldquo;http://www.cninfo.com.cn/new/disclosure/stock?stockCode=&amp;quot;+str(shares)+&amp;quot;&amp;amp;orgId=gs&amp;quot;+sh|sz+&amp;ldquo;0&amp;rdquo;+str(shares)+&amp;quot;#latestAnnouncement&amp;rdquo;
+finalpage/2022-03-10/1212533413.PDF
+http://www.cninfo.com.cn/new/disclosure/detail?plate=szse&amp;amp;orgId=gssz0000001&amp;amp;stockCode=000001&amp;amp;announcementId=1212533413&amp;amp;announcementTime=2022-03-10
+/new/disclosure/detail?plate=szse&amp;amp;orgId=gssz0000001&amp;amp;stockCode=000001&amp;amp;announcementId=1212533413&amp;amp;announcementTime=2022-03-10 /new/disclosure/detail?plate=szse&amp;amp;orgId=gssz0000001&amp;amp;stockCode=000001&amp;amp;announcementId=1212533413&amp;amp;announcementTime=2022-03-10 /new/disclosure/detail?plate=szse&amp;amp;orgId=gssz0000001&amp;amp;stockCode=000001&amp;amp;announcementId=1212533413&amp;amp;announcementTime=2022-03-10 amp;
+根据证券代码的规则将所有数字全部试一遍 sh： sh=000~999 600+sh 601+sh 603+sh 当数字处于600000~601999+603000~603999时，为sh sz： sz=000-999 000+sz 001+sz 002+sz 300+sz 000001~002999 在上海证券交易所上市的证券，根据上交所“证券编码实施方案”，采用6位数编制方法，前3位数为区别证券品种,沪市A股票买卖的代码是以600、601或603打头
+以前深交所的证券代码是四位，前不久已经升为六位具体变化如下：深圳证券市场的证券代码由原来的4位长度统一升为6位长度。 1、新证券代码编码规则升位后的证券代码采用6位数字编码，编码规则定义如下：顺序编码区：6位代码中的第3位到第6位，取值范围为0001-9999。证券种类标识区：6位代码中的最左两位，其中第1位标识证券大类，第2位标识该大类下的衍生证券。 2、新旧证券代码转换此次A股证券代码升位方法为原代码前加“00”，但有两个A股股票升位方法特殊，分别是“0696 ST联益”和“0896 豫能控股”，升位后股票代码分别为“001696”和“001896”。 深市A股票买卖的代码是以000打头，中小板股票代码以002打头，创业板股票代码以300打头，
+也可以： 生成一个list(range(0,1000))
+http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601997&amp;amp;orgId=9900022955#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601998&amp;amp;orgId=9900002721#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601999&amp;amp;orgId=9900003948#latestAnnouncement
+http://www.cninfo.com.cn/new/disclosure/stock?stockCode=603998&amp;amp;orgId=9900023772#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=603999&amp;amp;orgId=9900026062#latestAnnouncement
+http://www.cninfo.com.cn/new/disclosure/stock?stockCode=003005&amp;amp;orgId=9900039784#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=003006&amp;amp;orgId=9900032173#latestAnnouncement</description>
+    </item>
+    
     <item>
       <title>年报处理</title>
       <link>https://ypt666.github.io/post/%E5%B9%B4%E6%8A%A5%E5%A4%84%E7%90%86/</link>
@@ -14,6 +38,10 @@
       
       <guid>https://ypt666.github.io/post/%E5%B9%B4%E6%8A%A5%E5%A4%84%E7%90%86/</guid>
       <description>由于年报是高度结构化的，所以各个公司的年报结构大致相似，所以我们可以用python的pdfplumber包进行处理。
+5.5 根据目录，提取到“管理层讨论与分析”的页码以及结束页码——————已完成 光用页码定位目录的方法不保险，可采用遍历的方法—————— （蓝海华腾·2017.2018.2019 年年度报告全文的目录在第四页）
+***可以根据目录的页码去定位管理层讨论与分析的位置
+存在部分企业的年报页码和pdf页码不一致，可能需要通过遍历整个pdf的方法来解决。
+可能可用思路:（文章对比excel文件） 将 MD&amp;amp;A 进一步划分为回顾部分和展望部分后发现，仅有展望部分中的信息含量能够显著降低未来股价崩盘风险。 从文本可读性和信息不对称的角度出发，研究它们对二者关系的影响。（MD&amp;amp;A 和未来股价崩盘风险）
 由于年报是高度结构化的，所以他们的文本相似性可能比较高？</description>
     </item>
     

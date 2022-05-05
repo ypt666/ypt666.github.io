@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <title>巨潮小疑问 // 每日小应</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.98.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://ypt666.github.io/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="巨潮小疑问"/>
+<meta name="twitter:description" content="1.年报中存在在2021年发布2018年年度报告（更新后）的情况（如300537广信材料） 该情况下，是否应该采用2021年发布的新版报告，还是用原来的2019年时公布的老版本？
+用wps文本分析对比东风汽车的2012年三份报告， 决定：保留当年原始版本的年报 理由：当年的年报比是企业精雕细琢的成果，后期更新后和修订版是不可控力作用的结果。
+2.年报修订版和原版该用哪个？？
+3.sumlume在等待过程中，先点（全部清除），再点（年报）
+http://www.cninfo.com.cn/new/disclosure/stock?orgId=gssz0000001&amp;stockCode=000001#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000002&amp;orgId=gssz0000002#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000003&amp;orgId=gssz0000003#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000004&amp;orgId=gssz0000004#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=600520&amp;orgId=gssh0600520#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000001&amp;orgId=gssh0000001#latestAnnouncement
+页码拼接 shares=[,,,,,,,]
+sh sz url=&ldquo;http://www.cninfo.com.cn/new/disclosure/stock?stockCode=&quot;&#43;str(shares)&#43;&quot;&amp;orgId=gs&quot;&#43;sh|sz&#43;&ldquo;0&rdquo;&#43;str(shares)&#43;&quot;#latestAnnouncement&rdquo;
+finalpage/2022-03-10/1212533413.PDF
+http://www.cninfo.com.cn/new/disclosure/detail?plate=szse&amp;orgId=gssz0000001&amp;stockCode=000001&amp;announcementId=1212533413&amp;announcementTime=2022-03-10
+/new/disclosure/detail?plate=szse&amp;orgId=gssz0000001&amp;stockCode=000001&amp;announcementId=1212533413&amp;announcementTime=2022-03-10 /new/disclosure/detail?plate=szse&amp;orgId=gssz0000001&amp;stockCode=000001&amp;announcementId=1212533413&amp;announcementTime=2022-03-10 /new/disclosure/detail?plate=szse&amp;orgId=gssz0000001&amp;stockCode=000001&amp;announcementId=1212533413&amp;announcementTime=2022-03-10 amp;
+根据证券代码的规则将所有数字全部试一遍 sh： sh=000~999 600&#43;sh 601&#43;sh 603&#43;sh 当数字处于600000~601999&#43;603000~603999时，为sh sz： sz=000-999 000&#43;sz 001&#43;sz 002&#43;sz 300&#43;sz 000001~002999 在上海证券交易所上市的证券，根据上交所“证券编码实施方案”，采用6位数编制方法，前3位数为区别证券品种,沪市A股票买卖的代码是以600、601或603打头
+以前深交所的证券代码是四位，前不久已经升为六位具体变化如下：深圳证券市场的证券代码由原来的4位长度统一升为6位长度。 1、新证券代码编码规则升位后的证券代码采用6位数字编码，编码规则定义如下：顺序编码区：6位代码中的第3位到第6位，取值范围为0001-9999。证券种类标识区：6位代码中的最左两位，其中第1位标识证券大类，第2位标识该大类下的衍生证券。 2、新旧证券代码转换此次A股证券代码升位方法为原代码前加“00”，但有两个A股股票升位方法特殊，分别是“0696 ST联益”和“0896 豫能控股”，升位后股票代码分别为“001696”和“001896”。 深市A股票买卖的代码是以000打头，中小板股票代码以002打头，创业板股票代码以300打头，
+也可以： 生成一个list(range(0,1000))
+http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601997&amp;orgId=9900022955#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601998&amp;orgId=9900002721#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601999&amp;orgId=9900003948#latestAnnouncement
+http://www.cninfo.com.cn/new/disclosure/stock?stockCode=603998&amp;orgId=9900023772#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=603999&amp;orgId=9900026062#latestAnnouncement
+http://www.cninfo.com.cn/new/disclosure/stock?stockCode=003005&amp;orgId=9900039784#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=003006&amp;orgId=9900032173#latestAnnouncement"/>
+
+    <meta property="og:title" content="巨潮小疑问" />
+<meta property="og:description" content="1.年报中存在在2021年发布2018年年度报告（更新后）的情况（如300537广信材料） 该情况下，是否应该采用2021年发布的新版报告，还是用原来的2019年时公布的老版本？
+用wps文本分析对比东风汽车的2012年三份报告， 决定：保留当年原始版本的年报 理由：当年的年报比是企业精雕细琢的成果，后期更新后和修订版是不可控力作用的结果。
+2.年报修订版和原版该用哪个？？
+3.sumlume在等待过程中，先点（全部清除），再点（年报）
+http://www.cninfo.com.cn/new/disclosure/stock?orgId=gssz0000001&amp;stockCode=000001#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000002&amp;orgId=gssz0000002#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000003&amp;orgId=gssz0000003#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000004&amp;orgId=gssz0000004#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=600520&amp;orgId=gssh0600520#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000001&amp;orgId=gssh0000001#latestAnnouncement
+页码拼接 shares=[,,,,,,,]
+sh sz url=&ldquo;http://www.cninfo.com.cn/new/disclosure/stock?stockCode=&quot;&#43;str(shares)&#43;&quot;&amp;orgId=gs&quot;&#43;sh|sz&#43;&ldquo;0&rdquo;&#43;str(shares)&#43;&quot;#latestAnnouncement&rdquo;
+finalpage/2022-03-10/1212533413.PDF
+http://www.cninfo.com.cn/new/disclosure/detail?plate=szse&amp;orgId=gssz0000001&amp;stockCode=000001&amp;announcementId=1212533413&amp;announcementTime=2022-03-10
+/new/disclosure/detail?plate=szse&amp;orgId=gssz0000001&amp;stockCode=000001&amp;announcementId=1212533413&amp;announcementTime=2022-03-10 /new/disclosure/detail?plate=szse&amp;orgId=gssz0000001&amp;stockCode=000001&amp;announcementId=1212533413&amp;announcementTime=2022-03-10 /new/disclosure/detail?plate=szse&amp;orgId=gssz0000001&amp;stockCode=000001&amp;announcementId=1212533413&amp;announcementTime=2022-03-10 amp;
+根据证券代码的规则将所有数字全部试一遍 sh： sh=000~999 600&#43;sh 601&#43;sh 603&#43;sh 当数字处于600000~601999&#43;603000~603999时，为sh sz： sz=000-999 000&#43;sz 001&#43;sz 002&#43;sz 300&#43;sz 000001~002999 在上海证券交易所上市的证券，根据上交所“证券编码实施方案”，采用6位数编制方法，前3位数为区别证券品种,沪市A股票买卖的代码是以600、601或603打头
+以前深交所的证券代码是四位，前不久已经升为六位具体变化如下：深圳证券市场的证券代码由原来的4位长度统一升为6位长度。 1、新证券代码编码规则升位后的证券代码采用6位数字编码，编码规则定义如下：顺序编码区：6位代码中的第3位到第6位，取值范围为0001-9999。证券种类标识区：6位代码中的最左两位，其中第1位标识证券大类，第2位标识该大类下的衍生证券。 2、新旧证券代码转换此次A股证券代码升位方法为原代码前加“00”，但有两个A股股票升位方法特殊，分别是“0696 ST联益”和“0896 豫能控股”，升位后股票代码分别为“001696”和“001896”。 深市A股票买卖的代码是以000打头，中小板股票代码以002打头，创业板股票代码以300打头，
+也可以： 生成一个list(range(0,1000))
+http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601997&amp;orgId=9900022955#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601998&amp;orgId=9900002721#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601999&amp;orgId=9900003948#latestAnnouncement
+http://www.cninfo.com.cn/new/disclosure/stock?stockCode=603998&amp;orgId=9900023772#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=603999&amp;orgId=9900026062#latestAnnouncement
+http://www.cninfo.com.cn/new/disclosure/stock?stockCode=003005&amp;orgId=9900039784#latestAnnouncement http://www.cninfo.com.cn/new/disclosure/stock?stockCode=003006&amp;orgId=9900032173#latestAnnouncement" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ypt666.github.io/post/%E5%B7%A8%E6%BD%AE%E5%B0%8F%E7%96%91%E9%97%AE/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-05-05T13:03:53+08:00" />
+<meta property="article:modified_time" content="2022-05-05T13:03:53+08:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://ypt666.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>每日小应</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">巨潮小疑问</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          May 5, 2022
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>1.年报中存在在2021年发布2018年年度报告（更新后）的情况（如300537广信材料）
+该情况下，是否应该采用2021年发布的新版报告，还是用原来的2019年时公布的老版本？</p>
+<p>用wps文本分析对比东风汽车的2012年三份报告，
+决定：保留当年原始版本的年报
+理由：当年的年报比是企业精雕细琢的成果，后期更新后和修订版是不可控力作用的结果。</p>
+<p>2.年报修订版和原版该用哪个？？</p>
+<p>3.sumlume在等待过程中，先点（全部清除），再点（年报）</p>
+<p><a href="http://www.cninfo.com.cn/new/disclosure/stock?orgId=gssz0000001&amp;stockCode=000001#latestAnnouncement">http://www.cninfo.com.cn/new/disclosure/stock?orgId=gssz0000001&amp;stockCode=000001#latestAnnouncement</a>
+<a href="http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000002&amp;orgId=gssz0000002#latestAnnouncement">http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000002&amp;orgId=gssz0000002#latestAnnouncement</a>
+<a href="http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000003&amp;orgId=gssz0000003#latestAnnouncement">http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000003&amp;orgId=gssz0000003#latestAnnouncement</a>
+<a href="http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000004&amp;orgId=gssz0000004#latestAnnouncement">http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000004&amp;orgId=gssz0000004#latestAnnouncement</a>
+<a href="http://www.cninfo.com.cn/new/disclosure/stock?stockCode=600520&amp;orgId=gssh0600520#latestAnnouncement">http://www.cninfo.com.cn/new/disclosure/stock?stockCode=600520&amp;orgId=gssh0600520#latestAnnouncement</a>
+<a href="http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000001&amp;orgId=gssh0000001#latestAnnouncement">http://www.cninfo.com.cn/new/disclosure/stock?stockCode=000001&amp;orgId=gssh0000001#latestAnnouncement</a></p>
+<p>页码拼接
+shares=[,,,,,,,]</p>
+<p>sh
+sz
+url=&ldquo;<a href="http://www.cninfo.com.cn/new/disclosure/stock?stockCode=%22+str(shares)+%22&amp;orgId=gs%22+sh">http://www.cninfo.com.cn/new/disclosure/stock?stockCode=&quot;+str(shares)+&quot;&amp;orgId=gs&quot;+sh</a>|sz+&ldquo;0&rdquo;+str(shares)+&quot;#latestAnnouncement&rdquo;</p>
+<p>finalpage/2022-03-10/1212533413.PDF</p>
+<p><a href="http://www.cninfo.com.cn/new/disclosure/detail?plate=szse&amp;orgId=gssz0000001&amp;stockCode=000001&amp;announcementId=1212533413&amp;announcementTime=2022-03-10">http://www.cninfo.com.cn/new/disclosure/detail?plate=szse&amp;orgId=gssz0000001&amp;stockCode=000001&amp;announcementId=1212533413&amp;announcementTime=2022-03-10</a></p>
+<p>/new/disclosure/detail?plate=szse&amp;orgId=gssz0000001&amp;stockCode=000001&amp;announcementId=1212533413&amp;announcementTime=2022-03-10
+/new/disclosure/detail?plate=szse&amp;orgId=gssz0000001&amp;stockCode=000001&amp;announcementId=1212533413&amp;announcementTime=2022-03-10
+/new/disclosure/detail?plate=szse&amp;orgId=gssz0000001&amp;stockCode=000001&amp;announcementId=1212533413&amp;announcementTime=2022-03-10
+amp;</p>
+<p>根据证券代码的规则将所有数字全部试一遍
+sh：
+sh=000~999
+600+sh
+601+sh
+603+sh
+当数字处于600000~601999+603000~603999时，为sh
+sz：
+sz=000-999
+000+sz
+001+sz
+002+sz
+300+sz
+000001~002999
+在上海证券交易所上市的证券，根据上交所“证券编码实施方案”，采用6位数编制方法，前3位数为区别证券品种,沪市A股票买卖的代码是以600、601或603打头</p>
+<p>以前深交所的证券代码是四位，前不久已经升为六位具体变化如下：深圳证券市场的证券代码由原来的4位长度统一升为6位长度。
+1、新证券代码编码规则升位后的证券代码采用6位数字编码，编码规则定义如下：顺序编码区：6位代码中的第3位到第6位，取值范围为0001-9999。证券种类标识区：6位代码中的最左两位，其中第1位标识证券大类，第2位标识该大类下的衍生证券。
+2、新旧证券代码转换此次A股证券代码升位方法为原代码前加“00”，但有两个A股股票升位方法特殊，分别是“0696 ST联益”和“0896 豫能控股”，升位后股票代码分别为“001696”和“001896”。
+深市A股票买卖的代码是以000打头，中小板股票代码以002打头，创业板股票代码以300打头，</p>
+<p>也可以：
+生成一个list(range(0,1000))</p>
+<p><a href="http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601997&amp;orgId=9900022955#latestAnnouncement">http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601997&amp;orgId=9900022955#latestAnnouncement</a>
+<a href="http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601998&amp;orgId=9900002721#latestAnnouncement">http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601998&amp;orgId=9900002721#latestAnnouncement</a>
+<a href="http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601999&amp;orgId=9900003948#latestAnnouncement">http://www.cninfo.com.cn/new/disclosure/stock?stockCode=601999&amp;orgId=9900003948#latestAnnouncement</a></p>
+<p><a href="http://www.cninfo.com.cn/new/disclosure/stock?stockCode=603998&amp;orgId=9900023772#latestAnnouncement">http://www.cninfo.com.cn/new/disclosure/stock?stockCode=603998&amp;orgId=9900023772#latestAnnouncement</a>
+<a href="http://www.cninfo.com.cn/new/disclosure/stock?stockCode=603999&amp;orgId=9900026062#latestAnnouncement">http://www.cninfo.com.cn/new/disclosure/stock?stockCode=603999&amp;orgId=9900026062#latestAnnouncement</a></p>
+<p><a href="http://www.cninfo.com.cn/new/disclosure/stock?stockCode=003005&amp;orgId=9900039784#latestAnnouncement">http://www.cninfo.com.cn/new/disclosure/stock?stockCode=003005&amp;orgId=9900039784#latestAnnouncement</a>
+<a href="http://www.cninfo.com.cn/new/disclosure/stock?stockCode=003006&amp;orgId=9900032173#latestAnnouncement">http://www.cninfo.com.cn/new/disclosure/stock?stockCode=003006&amp;orgId=9900032173#latestAnnouncement</a></p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
